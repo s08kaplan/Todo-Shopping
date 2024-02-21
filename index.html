@@ -12,15 +12,25 @@
         <span>logo</span>
         <ul>
             <li>Home</li>
-            <li>Cities</li>
+            <li><a href="./cities.html">Cities</a> </li>
             <li>About</li>
             <li>My Page</li>
         </ul>
         <div class="avatar">avatar</div>
     </nav>
+
+    <!--  MAIN(TODO LIST) -->
     <main class="container">
         <div class="todo-input">
-            <input type="text">
+            <label for="todo">What's your plan TODO?</label>
+            <input
+             type="text"
+             id="todo"
+             name="todo"
+             >
+        </div>
+        <div class="add-todo-btn">
+            <button type="submit" class="add-btn">ADD</button>
         </div>
         <div class="todo">
             <ul class="todo"></ul>
@@ -30,5 +40,6 @@
 </div>
     </main>
     <footer>  </footer>
+    <script type="module" src="todo.js"></script>
 </body>
 </html>
